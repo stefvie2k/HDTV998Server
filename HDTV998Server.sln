@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocketServer", "SocketServer\SocketServer.vcxproj", "{B75D2AC6-0B7E-4CA4-BF21-7AFC9EF3C108}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HDTV998Server", "HDTV998Server\HDTV998Server.vcxproj", "{616821FA-5E2A-4323-BD8F-786722CFAC7D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B75D2AC6-0B7E-4CA4-BF21-7AFC9EF3C108} = {B75D2AC6-0B7E-4CA4-BF21-7AFC9EF3C108}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B75D2AC6-0B7E-4CA4-BF21-7AFC9EF3C108}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B75D2AC6-0B7E-4CA4-BF21-7AFC9EF3C108}.Debug|Win32.Build.0 = Debug|Win32
+		{B75D2AC6-0B7E-4CA4-BF21-7AFC9EF3C108}.Release|Win32.ActiveCfg = Release|Win32
+		{B75D2AC6-0B7E-4CA4-BF21-7AFC9EF3C108}.Release|Win32.Build.0 = Release|Win32
+		{616821FA-5E2A-4323-BD8F-786722CFAC7D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{616821FA-5E2A-4323-BD8F-786722CFAC7D}.Debug|Win32.Build.0 = Debug|Win32
+		{616821FA-5E2A-4323-BD8F-786722CFAC7D}.Release|Win32.ActiveCfg = Release|Win32
+		{616821FA-5E2A-4323-BD8F-786722CFAC7D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

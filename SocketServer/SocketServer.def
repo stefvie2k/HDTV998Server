@@ -1,0 +1,5 @@
+LIBRARY SockerServer.dll
+EXPORTS
+	SockServer_OnReceiveSetup   @1
+	SockServer_Initialize		@2
+	SockServer_Uninitialize		@3
